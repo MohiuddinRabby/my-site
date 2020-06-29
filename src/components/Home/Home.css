@@ -64,3 +64,55 @@
   top: 0%;
 }
 /*  */
+/* Linux text */
+
+.linux-text {
+  text-decoration: none;
+  color: #121314;
+  position: relative;
+}
+.linux-text:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 60%;
+  left: -0.1em;
+  right: -0.1em;
+  bottom: 0;
+  transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
+  background-color: rgba(78, 205, 10, 0.78);
+}
+.linux-text:hover:after {
+  top: 0%;
+}
+/*  */
+/* text-bangladesh */
+.bangladesh-text {
+  text-decoration: none;
+  color: #121314;
+  position: relative;
+}
+.bangladesh-text:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 60%;
+  left: -0.1em;
+  right: -0.1em;
+  bottom: 0;
+  transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
+  /* background-color: rgba(78, 205, 10, 0.78); */
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(235,13,13,0.6448634286944785) 0%, rgba(63,177,51,1) 100%);
+}
+.bangladesh-text:hover:after {
+  top: 0%;
+}
+/* .avatar{
+  display: inline-block;
+  position: relative;
+  width: 275px;
+  height: 230px;
+  overflow: hidden;
+  border-radius: 50%;
+} */
