@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../../assets/image/4.jpg';
+import image from '../../assets/image/14.JPG';
 import './Home.css';
 const Home = () => {
   const primaryTextColor = {
@@ -10,7 +10,7 @@ const Home = () => {
   }
   return (
     <div className="py-4">
-      <div className="container">
+      <div className="container py-2">
         <div className="row">
           <div className="col-lg-6 col-md-6 col-sm-6">
             <div className="about-description">
@@ -23,7 +23,32 @@ const Home = () => {
             </div>
           </div>
           <div className="col-lg-6  col-md-6 col-sm-6">
-            <img src={image} className="avatar img-fluid" style={{ borderRadius: '75%' }} alt="" />
+            <div className="row">
+              <div className="col-lg-6  col-md-6 col-sm-6"></div>
+              <div className="col-lg-6  col-md-6 col-sm-6 py-5">
+                <img src={image} className="img-fluid rounded-circle" alt="" />
+                <h3 className="text-center py-2" style={{ color: primaryTextColor.color1 }}>Social Profile</h3>
+                <div className="text-center">
+                  <div className="row">
+                    <div className="col-4 social facebook">
+                      <a href="https://web.facebook.com/mohiuddinrabbyxoo" rel="noopener noreferrer" target="_blank">
+                        <i className="fab fa-facebook-square fa-3x"></i>
+                      </a>
+                    </div>
+                    <div className="col-4 social github">
+                      <a href="https://github.com/MohiuddinRabby" rel="noopener noreferrer" target="_blank">
+                        <i className="fab fa-github-square fa-3x"></i>
+                      </a>
+                    </div>
+                    <div className="col-4 social linkedin">
+                      <a href="https://www.linkedin.com/in/mohiuddin-rabby-b49797123" rel="noopener noreferrer" target="_blank">
+                        <i className="fab fa-linkedin fa-3x"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -102,17 +102,33 @@
   bottom: 0;
   transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
   /* background-color: rgba(78, 205, 10, 0.78); */
-  background: rgb(255,255,255);
-  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(235,13,13,0.6448634286944785) 0%, rgba(63,177,51,1) 100%);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(235, 13, 13, 0.6448634286944785) 0%,
+    rgba(63, 177, 51, 1) 100%
+  );
 }
 .bangladesh-text:hover:after {
   top: 0%;
 }
-/* .avatar{
+
+/*  */
+.social a {
+  margin: 0 1rem;
+  transition: transform 250ms;
   display: inline-block;
-  position: relative;
-  width: 275px;
-  height: 230px;
-  overflow: hidden;
-  border-radius: 50%;
-} */
+}
+.social a:hover {
+  transform: translateY(-2px);
+}
+.facebook a {
+  color: #4968ad;
+}
+.github a {
+  color: black;
+}
+.linkedin a {
+  color: #49a1eb;
+}
