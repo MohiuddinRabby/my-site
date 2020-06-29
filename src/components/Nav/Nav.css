@@ -1,0 +1,12 @@
+.navbar {
+    box-shadow: 3px 2px 3px #00b33c;
+    opacity: .9;
+    background: #fff;
+}
+.nav-item {
+    font-size: 18px;
+    padding-right: 30px;
+}
+.nav-link {
+    color: #006622;
+}
