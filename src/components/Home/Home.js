@@ -27,23 +27,29 @@ const Home = () => {
               <div className="col-lg-6  col-md-6 col-sm-6"></div>
               <div className="col-lg-6  col-md-6 col-sm-6 py-5">
                 <img src={image} className="img-fluid rounded-circle" alt="" />
-                <h3 className="text-center py-2" style={{ color: primaryTextColor.color1 }}>Social Profile</h3>
+                <h3 className="text-center py-2" style={{ color: primaryTextColor.color1 }}>Social Profiles</h3>
                 <div className="text-center">
                   <div className="row">
                     <div className="col-4 social facebook">
-                      <a href="https://web.facebook.com/mohiuddinrabbyxoo" rel="noopener noreferrer" target="_blank">
-                        <i className="fab fa-facebook-square fa-3x"></i>
-                      </a>
+                      <abbr title="instagram">
+                        <a href="https://www.instagram.com/xosef" rel="noopener noreferrer" target="_blank">
+                          <i className="fab fa-instagram fa-3x"></i>
+                        </a>
+                      </abbr>
                     </div>
                     <div className="col-4 social github">
-                      <a href="https://github.com/MohiuddinRabby" rel="noopener noreferrer" target="_blank">
-                        <i className="fab fa-github-square fa-3x"></i>
-                      </a>
+                      <abbr title="github">
+                        <a href="https://github.com/MohiuddinRabby" rel="noopener noreferrer" target="_blank">
+                          <i className="fab fa-github-square fa-3x"></i>
+                        </a>
+                      </abbr>
                     </div>
                     <div className="col-4 social linkedin">
-                      <a href="https://www.linkedin.com/in/mohiuddin-rabby-b49797123" rel="noopener noreferrer" target="_blank">
-                        <i className="fab fa-linkedin fa-3x"></i>
-                      </a>
+                      <abbr title="linkedin">
+                        <a href="https://www.linkedin.com/in/mohiuddin-rabby-b49797123" rel="noopener noreferrer" target="_blank">
+                          <i className="fab fa-linkedin fa-3x"></i>
+                        </a>
+                      </abbr>
                     </div>
                   </div>
                 </div>
