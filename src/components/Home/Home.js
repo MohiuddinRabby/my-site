@@ -6,6 +6,7 @@ const Home = () => {
     // color1: '#3399ff',
     color1: '#007399',
     color2: '#004080',
+    color3: '#206040',
     borderRadious: '50%'
   }
   return (
@@ -20,6 +21,7 @@ const Home = () => {
               <p>I am a techy guy, who is passionate about softwares and programming. I’ve completed my bachelors degree in Software Engineering, and i'm from <span className="bangladesh-text">Bangladesh</span>. My primary interest is with <span className="react-text">React</span>. And I love to do things mostly with <span className="javascript-text">JavaScript</span>, <span className="react-text" >React</span>, <span className="bootstrap-text">Bootstrap</span></p>
 
               <p>I use <span className="react-text" >React</span> and <span className="linux-text">Linux</span> on my day-to-day work. I am a fast learner and always searching to learn something new and interesting. I am very passionate about what I do.</p>
+              <p className="hobby-text">Outside of programming I love to do Photography and have a quite interest in Video editing(not started yet). Some of my photo is available on <a href="https://www.pexels.com/@xosef-346551" rel="noopener noreferrer" target="_blank" style={{ color: primaryTextColor.color3 }}>Pexels</a></p>
             </div>
           </div>
           <div className="col-lg-6  col-md-6 col-sm-6">

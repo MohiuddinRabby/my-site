@@ -133,3 +133,8 @@
 .linkedin a {
   color: #273e50;
 }
+/*  hobby text style*/
+.hobby-text a{
+  text-decoration: none;
+
+}
