@@ -13,13 +13,15 @@ const Portfolio = () => {
         borderRadious: '50%'
     }
     return (
-        <div className="py-5">
-            <div className="container">
+        <div className="container">
+            <div className="py-5">
                 <h2 style={{ color: primaryTextColor.color1 }}>Recent works</h2>
-                <div className="row py-5">
+                <div className="row">
                     {
-                        project.map(item => <div className="col-md-4" key={item.id}>
-                            <PortfolioCards projects={item}></PortfolioCards></div>
+                        project.map(item =>
+                            <div className="col-lg-6 col-md-6 col-sm-12 py-3" key={item.id}>
+                                <PortfolioCards projects={item}></PortfolioCards>
+                            </div>
                         )
                     }
                 </div>
