@@ -15,8 +15,8 @@ const Home = () => {
         <div className="row">
           <div className="col-lg-6 col-md-6 col-sm-6">
             <div className="about-description">
-              <p className="display-4" style={{ color: primaryTextColor.color1 }}>Hello</p>
-              <h2 style={{ color: primaryTextColor.color1 }}>My Name is Mohiuddin</h2>
+              <h2 className="" style={{ color: primaryTextColor.color1 }}>Hello</h2>
+              <h3 style={{ color: primaryTextColor.color1 }}>My Name is Mohiuddin</h3>
               <p>Welcome to my site. If you have landed on my site searching for me then I am glad you are interested about me, nice.</p>
               <p>I am a techy guy, who is passionate about softwares and programming. I’ve completed my bachelors degree in Software Engineering, and i'm from <span className="bangladesh-text">Bangladesh</span>. My primary interest is with <span className="react-text">React</span>. And I love to do things mostly with <span className="javascript-text">JavaScript</span>, <span className="react-text" >React</span>, <span className="bootstrap-text">Bootstrap</span></p>
 
@@ -49,7 +49,7 @@ const Home = () => {
                     <div className="col-4 social linkedin">
                       <abbr title="linkedin">
                         <a href="https://www.linkedin.com/in/mohiuddin-rabby-b49797123" rel="noopener noreferrer" target="_blank">
-                          <i className="fab fa-linkedin fa-3x"></i>
+                          <i className="fab fa-linkedinfab fa-linkedin fa-3x"></i>
                         </a>
                       </abbr>
                     </div>
