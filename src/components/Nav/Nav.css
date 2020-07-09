@@ -1,5 +1,6 @@
 .navbar {
-    box-shadow: 3px 2px 3px #00b33c;
+    /* box-shadow: 3px 2px 3px #00b33c; */
+    box-shadow: 3px 2px 3px #008ae6;
     opacity: .9;
     background: #fff;
 }
@@ -8,5 +9,7 @@
     padding-right: 30px;
 }
 .nav-link {
-    color: #006622;
+    /* color: #006622; */
+    /* color: #008ae6; */
+    color: #006699;
 }

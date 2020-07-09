@@ -1,0 +1,161 @@
+.about-description {
+  font-size: 19px;
+}
+/* react text style */
+.react-text {
+  text-decoration: none;
+  color: #121314;
+  position: relative;
+}
+.react-text:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 60%;
+  left: -0.1em;
+  right: -0.1em;
+  bottom: 0;
+  transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
+  background-color: rgba(61, 171, 255, 0.9);
+}
+.react-text:hover:after {
+  top: 0%;
+}
+/*  */
+/* js text style */
+.javascript-text {
+  text-decoration: none;
+  color: #121314;
+  position: relative;
+}
+.javascript-text:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 60%;
+  left: -0.1em;
+  right: -0.1em;
+  bottom: 0;
+  transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
+  background-color: rgba(239, 159, 1, 0.76);
+}
+.javascript-text:hover:after {
+  top: 0%;
+}
+/*  */
+/* boostrap text style */
+.bootstrap-text {
+  text-decoration: none;
+  color: #121314;
+  position: relative;
+}
+.bootstrap-text:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 60%;
+  left: -0.1em;
+  right: -0.1em;
+  bottom: 0;
+  transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
+  background-color: rgba(132, 0, 219, 0.79);
+}
+.bootstrap-text:hover:after {
+  top: 0%;
+}
+/*  */
+/* Linux text */
+
+.linux-text {
+  text-decoration: none;
+  color: #121314;
+  position: relative;
+}
+.linux-text:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 60%;
+  left: -0.1em;
+  right: -0.1em;
+  bottom: 0;
+  transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
+  background-color: rgba(78, 205, 10, 0.78);
+}
+.linux-text:hover:after {
+  top: 0%;
+}
+/*  */
+/* text-bangladesh */
+.bangladesh-text {
+  text-decoration: none;
+  color: #121314;
+  position: relative;
+}
+.bangladesh-text:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 60%;
+  left: -0.1em;
+  right: -0.1em;
+  bottom: 0;
+  transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
+  /* background-color: rgba(78, 205, 10, 0.78); */
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(235, 13, 13, 0.6448634286944785) 0%,
+    rgba(63, 177, 51, 1) 100%
+  );
+}
+.bangladesh-text:hover:after {
+  top: 0%;
+}
+/*  */
+/* github text */
+.github-text {
+  text-decoration: none;
+  color: #121314;
+  position: relative;
+}
+.github-text:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 60%;
+  left: -0.1em;
+  right: -0.1em;
+  bottom: 0;
+  transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
+  background-color: rgba(5, 3, 0, 0.27)
+}
+.github-text:hover:after {
+  top: 0%;
+}
+/*  */
+/* socila links style */
+.social a {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+.social a:hover {
+  transform: translateY(-2px);
+}
+.facebook a {
+  /* color: #4968ad; */
+  color: #8134af;
+}
+.github a {
+  color: black;
+}
+.linkedin a {
+  color: #273e50;
+}
+/*  hobby text style*/
+.hobby-text a{
+  text-decoration: none;
+
+}
